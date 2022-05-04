@@ -1,14 +1,16 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "accounts": [
+    { "id": 1, "accountname": "personal account", "accountnumber":12345678, "accountbalance": "5000" },
+    { "id": 2, "accountname": "Business account", "accountnumber":56242592, "accountbalance": "5000" },
+    { "id": 3, "accountname": "Mypersonal account", "accountnumber":36541259, "accountbalance": "5000" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "countries": [
+    { "id": 1, "countryname": "Australia", "defcurr": "AU", "supportedcurrency":{"AUD", "USD", "GBP", "EUR", "AED", "CAD", "CHF", "DKK", "HKD", "JPY", "NOK", "NZD", "PGK", "SEK", "SGD", "THB", "ZAR"}  },
+    { "id": 2, "countryname": "Belgium", "defcurr": "EUR", "supportedcurrency":{"EUR", "GBP", "USD", "AUD", "CAD", "CHF" } },
+    { "id": 2, "countryname": "Canada", "defcurr": "CAD", "supportedcurrency":{"CAD", "USD", "GBP", "AUD", "EUR" } },
+    { "id": 2, "countryname": "China", "defcurr": "USD", "supportedcurrency":{"USD", "EUR", "GBP", "AUD", "AED", "CHF", "HKD", "JPY", "SGD", "VND" } },
+    { "id": 2, "countryname": "Germany", "defcurr": "EUR", "supportedcurrency":{"EUR", "GBP", "USD", "AUD", "CAD", "CHF", "DKK", "JPY", "NZD", "SEK", "SGD" } },
+    { "id": 2, "countryname": "India", "defcurr": "INR", "supportedcurrency":{"INR", "USD", "EUR", "AUD", "GBP" } },
+    { "id": 2, "countryname": "Malaysia", "defcurr": "USD", "supportedcurrency":{"USD", "SGD", "JPY", "AUD", "EUR", "GBP"} }
+  ]
 }
