@@ -5,12 +5,12 @@
     { "id": 3, "accountname": "Mypersonal account", "accountnumber": "36541259", "accountbalance": 5000 }
   ],
   "countries": [
-    { "id": 1, "countryname": "Australia", "defcurr": "AU", "supportedcurrency":{"AUD", "USD", "GBP", "EUR", "AED", "CAD", "CHF", "DKK", "HKD", "JPY", "NOK", "NZD", "PGK", "SEK", "SGD", "THB", "ZAR"}  },
-    { "id": 2, "countryname": "Belgium", "defcurr": "EUR", "supportedcurrency":{"EUR", "GBP", "USD", "AUD", "CAD", "CHF" } },
-    { "id": 3, "countryname": "Canada", "defcurr": "CAD", "supportedcurrency":{"CAD", "USD", "GBP", "AUD", "EUR" } },
-    { "id": 4, "countryname": "China", "defcurr": "USD", "supportedcurrency":{"USD", "EUR", "GBP", "AUD", "AED", "CHF", "HKD", "JPY", "SGD", "VND" } },
-    { "id": 5, "countryname": "Germany", "defcurr": "EUR", "supportedcurrency":{"EUR", "GBP", "USD", "AUD", "CAD", "CHF", "DKK", "JPY", "NZD", "SEK", "SGD" } },
-    { "id": 6, "countryname": "India", "defcurr": "INR", "supportedcurrency":{"INR", "USD", "EUR", "AUD", "GBP" } },
-    { "id": 7, "countryname": "Malaysia", "defcurr": "USD", "supportedcurrency":{"USD", "SGD", "JPY", "AUD", "EUR", "GBP"} }
+    { "id": 1, "countryname": "Australia", "defcurr": "AU", "supportedcurrency":["AUD", "USD", "GBP", "EUR", "AED", "CAD", "CHF", "DKK", "HKD", "JPY", "NOK", "NZD", "PGK", "SEK", "SGD", "THB", "ZAR" ]  },
+    { "id": 2, "countryname": "Belgium", "defcurr": "EUR", "supportedcurrency":["EUR", "GBP", "USD", "AUD", "CAD", "CHF" ] },
+    { "id": 3, "countryname": "Canada", "defcurr": "CAD", "supportedcurrency":["CAD", "USD", "GBP", "AUD", "EUR" ] },
+    { "id": 4, "countryname": "China", "defcurr": "USD", "supportedcurrency":["USD", "EUR", "GBP", "AUD", "AED", "CHF", "HKD", "JPY", "SGD", "VND" ] },
+    { "id": 5, "countryname": "Germany", "defcurr": "EUR", "supportedcurrency":["EUR", "GBP", "USD", "AUD", "CAD", "CHF", "DKK", "JPY", "NZD", "SEK", "SGD" ] },
+    { "id": 6, "countryname": "India", "defcurr": "INR", "supportedcurrency":["INR", "USD", "EUR", "AUD","GBP" ] },
+    { "id": 7, "countryname": "Malaysia", "defcurr": "USD", "supportedcurrency":["USD", "SGD", "JPY", "AUD", "EUR", "GBP"] }
   ]
 }
