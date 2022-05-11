@@ -1,9 +1,7 @@
 {
   "accounts": [
-    { "id": 1, "accountname": "personal account", "accountnumber": "12345678", "accountbalance": 5000 },
-    { "id": 2, "accountname": "Business account", "accountnumber": "56242592", "accountbalance": 5000 },
-    { "id": 3, "accountname": "Mypersonal account", "accountnumber": "36541259", "accountbalance": 5000 },
-    { "id": 4, "accountname": "Mypersonal account", "accountnumber": "23232345", "accountbalance": 5000 }
+    { "id": 1, "accountname": "Personal account", "accountnumber": "122-234 1234 5678", "accountbalance": Available $8,672.00 },
+    { "id": 2, "accountname": "Business account", "accountnumber": "122-234 1234 5678", "accountbalance": Available $24,332.00 }
   ],
   "countries": [
     { "id": 1, "countryname": "Australia", "defcurr": "AU", "supportedcurrency":["AUD", "USD", "GBP", "EUR", "AED", "CAD", "CHF", "DKK", "HKD", "JPY", "NOK", "NZD", "PGK", "SEK", "SGD", "THB", "ZAR" ]  },
